@@ -1,0 +1,10 @@
+data/org.katwulff.modseq.desktop.in
+data/org.katwulff.modseq.appdata.xml.in
+data/org.katwulff.modseq.gschema.xml
+data/ui/help-overlay.ui
+data/ui/preferences-window.ui
+data/ui/window.ui
+src/modseq/ui/window.vala
+src/modseq/app.vala
+src/modseq/main.vala
+
