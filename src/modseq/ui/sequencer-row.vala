@@ -14,19 +14,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-int main(string[] args) {
-	var app = new Modseq.App(
-		"org.katwulff.modseq",
-		ApplicationFlags.FLAGS_NONE
-	);
-
-	app.activate.connect(() => {
-		var win = app.active_window;
-		if (win == null) {
-			win = new Modseq.Ui.Window(app);
-		}
-		win.present();
-	});
-
-	return app.run(args);
+namespace Modseq.Ui {
 }
+

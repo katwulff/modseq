@@ -19,6 +19,8 @@ vapi_dir = meson.current_source_dir() / 'vapi'
 
 add_project_arguments(['--vapidir', vapi_dir], language: 'vala')
 add_project_arguments('-Wno-overlength-strings', language: 'c')
+add_project_arguments('-DGDK_DISABLE_DEPRECATED', language: 'c')
+add_project_arguments('-DGTK_DISABLE_DEPRECATED', language: 'c')
 
 subdir('data')
 subdir('po')
