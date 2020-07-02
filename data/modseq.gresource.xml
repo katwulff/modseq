@@ -3,7 +3,7 @@
     <gresource prefix="/org/katwulff/modseq">
         <file alias="gtk/help-overlay.ui">ui/help-overlay.ui</file>
         <file>ui/preferences-window.ui</file>
-        <file>ui/sequencer-row.ui</file>
+        <file>ui/sidebar.ui</file>
         <file>ui/window.ui</file>
     </gresource>
 </gresources>

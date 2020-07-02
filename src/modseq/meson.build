@@ -2,7 +2,7 @@ modseq_sources = [
     resources,
     'app.vala',
     'main.vala',
-    'ui/sequencer-row.vala',
+    'ui/sidebar.vala',
     'ui/window.vala',
 ]
 
@@ -19,4 +19,5 @@ modseq = executable(
     vala_args: '--target-glib=2.50',
     dependencies: modseq_deps,
     install: true,
+    export_dynamic: true,
 )

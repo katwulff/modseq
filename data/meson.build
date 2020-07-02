@@ -40,6 +40,7 @@ endif
 resource_data = files(
     'ui/help-overlay.ui',
     'ui/preferences-window.ui',
+    'ui/sidebar.ui',
     'ui/window.ui',
 )
 
@@ -47,5 +48,5 @@ resources = gnome.compile_resources(
     'modseq-resources',
     'modseq.gresource.xml',
     c_name: 'modseq',
-    dependencies: resource_data
+    dependencies: resource_data,
 )

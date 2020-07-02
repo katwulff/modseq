@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="modseq">
-    <enum id="org.gnome.modseq.sound-server">
+    <enum id="org.katwulff.modseq.sound-server-enum">
         <value nick="null" value="0"/>
         <value nick="alsa" value="1"/>
         <value nick="jack" value="2"/>
         <value nick="pulse" value="3"/>
     </enum>
     <schema id="org.katwulff.modseq" path="/org/katwulff/modseq/">
-        <key name='sound-server' enum='org.gnome.modseq.sound-server'>
+        <key name='sound-server' enum='org.katwulff.modseq.sound-server-enum'>
           <default>'pulse'</default>
           <summary>Sound Server</summary>
           <description>Sound server for input and output. Allowed values are: "null", "alsa", "jack", "pulse".</description>
